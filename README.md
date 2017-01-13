@@ -1,2 +1,2 @@
 # aseembits93.github.io
-academic website
+Academic Website
