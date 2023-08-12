@@ -1,330 +1,460 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!-- saved from url=(0040)http://people.eecs.berkeley.edu/~barron/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
     a {
-    color: #1772d0;
-    text-decoration:none;
+      color: #1772d0;
+      text-decoration: none;
     }
-    a:focus, a:hover {
-    color: #f09228;
-    text-decoration:none;
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
     }
-    body,td,th,tr,p,a {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: Verdana, Helvetica, sans-serif;
+      font-size: 18px
     }
+
     strong {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
+      font-family: Verdana, Helvetica, sans-serif;
+      font-size: 18px;
     }
+
     heading {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 22px;
+      font-family: Verdana, Helvetica, sans-serif;
+      font-size: 22px;
     }
+
     papertitle {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700
+      font-family: Verdana, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: 700
     }
+
     name {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 32px;
+      font-family: Verdana, Helvetica, sans-serif;
+      font-size: 32px;
     }
-    .one
-    {
-    width: 160px;
-    height: 160px;
-    position: relative;
+
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
     }
-    .two
-    {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
+
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
     }
+
     .fade {
-     transition: opacity .2s ease-in-out;
-     -moz-transition: opacity .2s ease-in-out;
-     -webkit-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
     }
+
     span.highlight {
-        background-color: #ffffd0;
+      background-color: #ffffd0;
     }
   </style>
-  
-  <title>Aseem</title>
-  
-  <link href="./website_files/css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tbody><tr>
-    <td>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
-        <td width="67%" valign="middle">
-        <p align="center">
-          <name>Aseem Saxena</name>
-        </p>
-		<p> I am currently pursuing my PhD in Artificial Intelligence at Oregon State University. I am fortunate to be advised by <a href="https://web.engr.oregonstate.edu/~afern/">Prof Alan Fern</a> at the <a href="https://mime.oregonstate.edu/research/drl/">Dynamic Robotics Lab</a>.</p> 
-	<p>Until very recently, I worked as a Machine Learning Engineer at Panasonic, Singapore.</p>
-	<p> Before that, I was working as a Researcher at <a href="http://motion.comp.nus.edu.sg/">M2AP Lab, School of Computing, NUS</a>, Singapore under the guidance of <a href="http://www.comp.nus.edu.sg/~dyhsu/">Prof. David Hsu</a>.</p>
-			
-        <p>
-          I did a Dual Major in Biology and Electrical And Electronics Engineering at <a href="http://www.bits-pilani.ac.in/">BITS Pilani</a>, my education was funded by the <a href="http://kvpy.iisc.ernet.in/main/index.htm">KVPY Fellowship</a>. I spent time on my thesis at <a href="http://robotics.iiit.ac.in/">Robotics Research Lab, IIIT Hyderabad</a>, where I was advised by <a href="https://faculty.iiit.ac.in/~mkrishna/">Prof Madhava Krishna</a>. 
-        </p>
-        <p align="center">
-<a href="https://robotvisionxyz.github.io">Blog</a> &nbsp;/&nbsp;		
-<a href="mailto:aseem.bits@gmail.com">Email</a> &nbsp;/&nbsp;
-<a href="website_files/Aseem_CV.pdf">CV</a> &nbsp;/&nbsp;
-<a href="https://github.com/aseembits93">Github</a> &nbsp;/&nbsp;
-<a href="https://scholar.google.co.in/citations?user=LJQoO7AAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-<a href="https://www.linkedin.com/in/aseembits93/">LinkedIn</a>
 
-        </p>
-        </td>
-        <td width="33%">
-          <img src="website_files/me.png">
-        </td>
-      </tr>
-      </tbody></table>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
-        <td width="100%" valign="middle">
-          <heading>Research Interests</heading>
-          <p>
-          My current research is on understanding Multi Task Learning and Transfer Learning. I worked briefly on combining perception and planning for decision making under uncertainty, specifically on perception for bipedal locomotion on <a href="https://www.agilityrobotics.com/robots#cassie">Cassie</a>. In the ancient past, I worked on Protein Structure Prediction and Cancer Genomics. 
-          </p>
-        </td>
-      </tr>
-      </tbody></table>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
-        <td width="100%" valign="middle">
-          <heading>Other Interests</heading>
-          <p>
-          I play music - <a href="https://www.youtube.com/channel/UCS-mAkSQheveU4dI78Sv1GQ">Youtube</a>, <a href="https://soundcloud.com/aseem-saxena">Soundcloud</a>. I run, swim and cycle to stay fit.</p>
-        </td>
-      </tr>
-      </tbody></table>	    
-	    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
+  <title>Aseem</title>
+
+  <link href="./website_files/css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
         <td>
-        <heading>Publications</heading>
-        </td>
-      </tr>
-      </tbody></table>
-	     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        
-        
-              <tbody><tr >
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td width="67%" valign="middle">
+                  <p align="center">
+                    <name>Aseem Saxena</name>
+                  </p>
+                  <p> I am currently pursuing my PhD in Artificial Intelligence at Oregon State University. I am
+                    fortunate to be advised by <a href="https://web.engr.oregonstate.edu/~afern/">Prof Alan Fern</a>.
+                  </p>
+                  <p>Until very recently, I worked as a Machine Learning Engineer at Panasonic, Singapore.</p>
+                  <p> Before that, I was working as a Researcher at <a href="http://motion.comp.nus.edu.sg/">M2AP Lab,
+                      School of Computing, NUS</a>, Singapore under the guidance of <a
+                      href="http://www.comp.nus.edu.sg/~dyhsu/">Prof. David Hsu</a>.</p>
+
+                  <p>
+                    I did a Dual Major in Biology and Electrical And Electronics Engineering at <a
+                      href="http://www.bits-pilani.ac.in/">BITS Pilani</a>, my education was funded by the <a
+                      href="http://kvpy.iisc.ernet.in/main/index.htm">KVPY Fellowship</a>. I spent time on my thesis at
+                    <a href="http://robotics.iiit.ac.in/">Robotics Research Lab, IIIT Hyderabad</a>, where I was advised
+                    by <a href="https://faculty.iiit.ac.in/~mkrishna/">Prof Madhava Krishna</a>.
+                  </p>
+                  <p align="center">
+                    <a href="https://robotvisionxyz.github.io">Blog</a> &nbsp;/&nbsp;
+                    <a href="mailto:aseem.bits@gmail.com">Email</a> &nbsp;/&nbsp;
+                    <a href="website_files/Aseem_CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/aseembits93">Github</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.co.in/citations?user=LJQoO7AAAAAJ&hl=en">Google Scholar</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://www.linkedin.com/in/aseembits93/">LinkedIn</a>
+
+                  </p>
+                </td>
+                <td width="33%">
+                  <img src="website_files/me.png">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td width="100%" valign="middle">
+                  <heading>Research Interests</heading>
+                  <p>
+                    My current research is on understanding Multi Task Learning and Transfer Learning for decision
+                    making, especially in the context of Agriculture. I worked briefly on perception for bipedal
+                    locomotion on <a href="https://www.agilityrobotics.com/robots#cassie">Cassie</a>. In the ancient
+                    past, I worked on Protein Structure Prediction and Cancer Genomics.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td width="100%" valign="middle">
+                  <heading>Other Interests</heading>
+                  <p>
+                    I play music - <a href="https://www.youtube.com/channel/UCS-mAkSQheveU4dI78Sv1GQ">Youtube</a>, <a
+                      href="https://soundcloud.com/aseem-saxena">Soundcloud</a>. I am an amateur triathlete.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <heading>Publications</heading>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+
+            <tbody>
+              <tr>
                 <td width="25%">
-      
-                            
-                  
+
+
+
+                </td>
+                <td valign="top" width="75%">
+                  <p><a href="https://arxiv.org/abs/2301.01815">
+                      <papertitle>Multi-Task Learning for Budbreak Prediction</papertitle>
+                    </a><br>
+                    Aseem Saxena, Paola Pesantez-Cabrera, Rohan Ballapragada, Markus Keller, Alan Fern<br>
+                    <em>Workshop on AI for Agriculture and Food Systems at AAAI</em>, 2023 (Accepted)<br>
+
+
+                  </p>
+                  <p></p>
+                  <p> Grapevine budbreak is a key phenological stage of seasonal development, which serves as a signal
+                    for the onset of active growth. This is also when grape plants are most vulnerable to damage from
+                    freezing temperatures. Hence, it is important for winegrowers to anticipate the day of budbreak
+                    occurrence to protect their vineyards from late spring frost events. This work investigates deep
+                    learning for budbreak prediction using data collected for multiple grape cultivars. While some
+                    cultivars have over 30 seasons of data others have as little as 4 seasons, which can adversely
+                    impact prediction accuracy. To address this issue, we investigate multi-task learning, which
+                    combines data across all cultivars to make predictions for individual cultivars. Our main result
+                    shows that several variants of multi-task learning are all able to significantly improve prediction
+                    accuracy compared to learning for each cultivar independently. </p>
+
+                  <p></p>
+                  <p></p>
+                </td>
+              </tr>
+
+              <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+
+                <tbody>
+                  <tr>
+                    <td width="25%">
+
+
+
                     </td>
                     <td valign="top" width="75%">
-                    <p><a href="https://arxiv.org/pdf/2209.10585.pdf">
-              <papertitle>Grape Cold Hardiness Prediction via Multi-Task Learning</papertitle></a><br>
-			    Aseem Saxena, Paola Pesantez-Cabrera, Rohan Ballapragada, Kin-Ho Lam, Alan Fern, Markus Keller<br>
-                      <em>Innovative Applications of Artificial Intelligence (IAAI)</em>, 2023 (Accepted)<br>
-                                        
-                      
-                    </p><p></p>
-                    <p> Cold temperatures during fall and spring have the potential to cause frost damage to grapevines and other fruit plants, which can significantly decrease harvest yields.  we study whether deep-learning models can improve cold hardiness prediction for grapes based on data that has been collected over a 30-year time period. A key challenge is that the amount of data per cultivar is highly variable, with some cultivars having only a small amount. For this purpose, we investigate the use of multi-task learning to leverage data across cultivars in order to improve prediction performance for individual cultivars.  </p>
-                    
-                    <p></p>
-                    <p></p>
+                      <p><a href="https://arxiv.org/pdf/2209.10585.pdf">
+                          <papertitle>Grape Cold Hardiness Prediction via Multi-Task Learning</papertitle>
+                        </a><br>
+                        Aseem Saxena, Paola Pesantez-Cabrera, Rohan Ballapragada, Kin-Ho Lam, Alan Fern, Markus
+                        Keller<br>
+                        <em>Innovative Applications of Artificial Intelligence (IAAI)</em>, 2023 (Accepted)<br>
+
+
+                      </p>
+                      <p></p>
+                      <p> Cold temperatures during fall and spring have the potential to cause frost damage to
+                        grapevines and other fruit plants, which can significantly decrease harvest yields. we study
+                        whether deep-learning models can improve cold hardiness prediction for grapes based on data that
+                        has been collected over a 30-year time period. A key challenge is that the amount of data per
+                        cultivar is highly variable, with some cultivars having only a small amount. For this purpose,
+                        we investigate the use of multi-task learning to leverage data across cultivars in order to
+                        improve prediction performance for individual cultivars. </p>
+
+                      <p></p>
+                      <p></p>
                     </td>
                   </tr>
 
-	     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        
-        
-              <tbody><tr >
-                <td width="25%">
-      
-                            
-                  
-                    </td>
-                    <td valign="top" width="75%">
-                    <p><a href="https://arxiv.org/pdf/2206.11812.pdf">
-              <papertitle>Formalizing the Problem of Side Effect Regularization</papertitle></a><br>
-			    <strong>Alexander Matt Turner</strong>, <strong>Aseem Saxena</strong>, Prasad Tadepalli<br>
-                      <em>NeurIPS ML Safety Workshop</em>, 2022 (Accepted)<br>
-                                        
-                      
-                    </p><p></p>
-                    <p> AI objectives are often hard to specify properly. Some approaches tackle this problem by regularizing the AI's side effects: Agents must weigh off" how much of a mess they make" with an imperfectly specified proxy objective. We propose a formal criterion for side effect regularization via the assistance game framework. </p>
-                    
-                    <p></p>
-                    <p></p>
-                    </td>
-                  </tr>      
-       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        
-        
-              <tbody><tr >
-                <td width="25%">
-      
-                            
-                  
-                    </td>
-                    <td valign="top" width="75%">
-                    <p><a href="https://arxiv.org/pdf/2203.07589.pdf">
-              <papertitle>Sim-to-Real Learning of Footstep-Constrained Bipedal Dynamic Walking</papertitle></a><br>
-              Helei Duan, Ashish Malik, Jeremy Dao, Aseem Saxena, Kevin Green, Jonah Siekmann, Alan Fern, Jonathan Hurst<br>
-                      <em>IEEE ICRA (International Conference on Robotics and Automation)</em>, 2022 (Accepted)<br>
-                                        
-                      
-                    </p><p></p>
-                    <p> we aim to maintain the robust and dynamic nature of learned gaits while also respecting footstep constraints imposed externally. We develop an RL formulation for training dynamic gait controllers that can respond to specified touchdown locations. We then successfully demonstrate simulation and sim-to-real performance on the bipedal robot Cassie. </p>
-                    
-                    <p></p>
-                    <p></p>
-                    </td>
-                  </tr>      
-		      
-	    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        
-        
-        <tbody><tr >
-          <td width="25%">
+                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-            <div class="one">
-                
-                <img src="website_files/rsspipeline_160.png">
-            </div>                
-            
-              </td>
-              <td valign="top" width="75%">
-              <p><a href="https://arxiv.org/pdf/1905.12197.pdf">
-        <papertitle>LeTS-Drive: Driving in a Crowd by Learning from Tree Search</papertitle></a><br>
-        <strong>Panpan Cai</strong>, Yuanfu Luo, Aseem Saxena, David Hsu, Wee Sun Lee<br>
-                <em>RSS (Robotics Science and Systems)</em>, 2019 (Accepted)<br>
-                <a href="https://www.youtube.com/watch?v=oghGK3QJFVo">video</a>
-		           
-                
-                
-              </p><p></p>
-              <p> Autonomous driving in a crowded environment, e.g., a busy traffic intersection, is an unsolved challenge for robotics. We propose
-                LeTS-Drive, which integrates online POMDP planning and deep
-                learning.</p>
-              
-              <p></p>
-              <p></p>
-              </td>
-            </tr>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        
-        
-              <tbody><tr >
-                <td width="25%">
-      
-                  <div class="one">
-                      
-                      <img src="website_files/pipeline_160.png">
-                  </div>                
-                  
-                    </td>
-                    <td valign="top" width="75%">
-                    <p><a href="https://arxiv.org/pdf/1706.03220.pdf">
-              <papertitle>Exploring Convolutional Networks for End-to-End Visual Servoing</papertitle></a><br>
-              <strong>Aseem Saxena</strong>, <strong>Harit Pandya</strong>, Gourav Kumar, K. Madhava Krishna<br>
-                      <em>IEEE ICRA (International Conference on Robotics and Automation)</em>, 2017 (Accepted)<br>
-                      <a href="https://www.youtube.com/watch?v=Ve6-3sNBfEM">video</a>
-                <a href="https://github.com/aseembits93/VS_CNN">code</a>      
-                      
-                      
-                    </p><p></p>
-                    <p> We present an end-to-end learning based approach for visual servoing in diverse scenes where the knowledge of camera parameters and scene geometry is not available apriori. This is achieved by training a convolutional neural network over color images with synchronised camera poses.</p>
-                    
-                    <p></p>
-                    <p></p>
-                    </td>
-                  </tr>      
 
-        
-        
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
-        <td>
-        <heading>Projects</heading>
-        </td>
+                    <tbody>
+                      <tr>
+                        <td width="25%">
+
+
+
+                        </td>
+                        <td valign="top" width="75%">
+                          <p><a href="https://arxiv.org/pdf/2206.11812.pdf">
+                              <papertitle>Formalizing the Problem of Side Effect Regularization</papertitle>
+                            </a><br>
+                            <strong>Alexander Matt Turner</strong>, <strong>Aseem Saxena</strong>, Prasad Tadepalli<br>
+                            <em>NeurIPS ML Safety Workshop</em>, 2022 (Accepted)<br>
+
+
+                          </p>
+                          <p></p>
+                          <p> AI objectives are often hard to specify properly. Some approaches tackle this problem by
+                            regularizing the AI's side effects: Agents must weigh off" how much of a mess they make"
+                            with an imperfectly specified proxy objective. We propose a formal criterion for side effect
+                            regularization via the assistance game framework. </p>
+
+                          <p></p>
+                          <p></p>
+                        </td>
+                      </tr>
+                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+
+                        <tbody>
+                          <tr>
+                            <td width="25%">
+
+
+
+                            </td>
+                            <td valign="top" width="75%">
+                              <p><a href="https://arxiv.org/pdf/2203.07589.pdf">
+                                  <papertitle>Sim-to-Real Learning of Footstep-Constrained Bipedal Dynamic Walking
+                                  </papertitle>
+                                </a><br>
+                                Helei Duan, Ashish Malik, Jeremy Dao, Aseem Saxena, Kevin Green, Jonah Siekmann, Alan
+                                Fern, Jonathan Hurst<br>
+                                <em>IEEE ICRA (International Conference on Robotics and Automation)</em>, 2022
+                                (Accepted)<br>
+
+
+                              </p>
+                              <p></p>
+                              <p> we aim to maintain the robust and dynamic nature of learned gaits while also
+                                respecting footstep constraints imposed externally. We develop an RL formulation for
+                                training dynamic gait controllers that can respond to specified touchdown locations. We
+                                then successfully demonstrate simulation and sim-to-real performance on the bipedal
+                                robot Cassie. </p>
+
+                              <p></p>
+                              <p></p>
+                            </td>
+                          </tr>
+
+                          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+
+                            <tbody>
+                              <tr>
+                                <td width="25%">
+
+                                  <div class="one">
+
+                                    <img src="website_files/rsspipeline_160.png">
+                                  </div>
+
+                                </td>
+                                <td valign="top" width="75%">
+                                  <p><a href="https://arxiv.org/pdf/1905.12197.pdf">
+                                      <papertitle>LeTS-Drive: Driving in a Crowd by Learning from Tree Search
+                                      </papertitle>
+                                    </a><br>
+                                    <strong>Panpan Cai</strong>, Yuanfu Luo, Aseem Saxena, David Hsu, Wee Sun Lee<br>
+                                    <em>RSS (Robotics Science and Systems)</em>, 2019 (Accepted)<br>
+                                    <a href="https://www.youtube.com/watch?v=oghGK3QJFVo">video</a>
+
+
+
+                                  </p>
+                                  <p></p>
+                                  <p> Autonomous driving in a crowded environment, e.g., a busy traffic intersection, is
+                                    an unsolved challenge for robotics. We propose
+                                    LeTS-Drive, which integrates online POMDP planning and deep
+                                    learning.</p>
+
+                                  <p></p>
+                                  <p></p>
+                                </td>
+                              </tr>
+                              <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+
+                                <tbody>
+                                  <tr>
+                                    <td width="25%">
+
+                                      <div class="one">
+
+                                        <img src="website_files/pipeline_160.png">
+                                      </div>
+
+                                    </td>
+                                    <td valign="top" width="75%">
+                                      <p><a href="https://arxiv.org/pdf/1706.03220.pdf">
+                                          <papertitle>Exploring Convolutional Networks for End-to-End Visual Servoing
+                                          </papertitle>
+                                        </a><br>
+                                        <strong>Aseem Saxena</strong>, <strong>Harit Pandya</strong>, Gourav Kumar, K.
+                                        Madhava Krishna<br>
+                                        <em>IEEE ICRA (International Conference on Robotics and Automation)</em>, 2017
+                                        (Accepted)<br>
+                                        <a href="https://www.youtube.com/watch?v=Ve6-3sNBfEM">video</a>
+                                        <a href="https://github.com/aseembits93/VS_CNN">code</a>
+
+
+                                      </p>
+                                      <p></p>
+                                      <p> We present an end-to-end learning based approach for visual servoing in
+                                        diverse scenes where the knowledge of camera parameters and scene geometry is
+                                        not available apriori. This is achieved by training a convolutional neural
+                                        network over color images with synchronised camera poses.</p>
+
+                                      <p></p>
+                                      <p></p>
+                                    </td>
+                                  </tr>
+
+
+
+                                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                          <heading>Projects</heading>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table width="100%" align="center" border="0" cellpadding="20">
+                                    <tbody>
+                                      <td width="25%">
+                                        <div class="oneone">
+
+                                          <img src="website_files/safelife.png" style="border-style: none">
+                                        </div>
+
+                                      </td>
+                                      <td width="75%" valign="top">
+                                        <p>
+                                          <a href="website_files/avoid.pdf">
+                                            <papertitle>Avoiding Side Effects in Complex Navigation Environments
+                                            </papertitle>
+                                          </a>
+                                          <br>
+                                          Aseem Saxena, Devin Crowley
+                                        </p>
+                                        <p>We explore methods to train agents to complete tasks and simultaneously avoid
+                                          side effects in the SafeLife. We demonstrate the effectiveness of MT-DQN, a
+                                          multi task variant of Deep Q Networks for side effect avoidance.</p>
+                                      </td>
       </tr>
-      </tbody></table>
-      <table width="100%" align="center" border="0" cellpadding="20">
-      <tbody>
-	<td width="25%">
-            <div class="oneone">
-                
-                  <img src="website_files/safelife.png" style="border-style: none"></div>
-                
-        </td>  
-        <td width="75%" valign="top">
-        <p>
-          <a href="website_files/avoid.pdf">
-          <papertitle>Avoiding Side Effects in Complex Navigation Environments</papertitle>
-          </a>
-          <br>
-          Aseem Saxena, Devin Crowley
-        </p>
-		<p>We explore methods to train agents to complete tasks and simultaneously avoid side effects in the SafeLife. We demonstrate the effectiveness of MT-DQN, a multi task variant of Deep Q Networks for side effect avoidance.</p>
-        </td>
-      </tr>      
-	<td width="25%">
-            <div class="one">
-                
-                  <img src="website_files/qmdpnet.png" style="border-style: none"></div>
-                
-        </td>  
-        <td width="75%" valign="top">
+      <td width="25%">
+        <div class="one">
+
+          <img src="website_files/qmdpnet.png" style="border-style: none">
+        </div>
+
+      </td>
+      <td width="75%" valign="top">
         <p>
           <a href="https://arxiv.org/pdf/1703.06692.pdf">
-          <papertitle>Visualizing QMDPNet</papertitle>
+            <papertitle>Visualizing QMDPNet</papertitle>
           </a>
           <br>
           <strong>Aseem Saxena</strong>
         </p>
-		<p>I created a full fledged GUI Visualizer using Python Tkinter Library to understand the QMDPnet algorithm. I visualize various components of a POMDP such as reward map, belief and value function to get an intuition on how the algorithm works.</p>
-        </td>
+        <p>I created a full fledged GUI Visualizer using Python Tkinter Library to understand the QMDPnet algorithm. I
+          visualize various components of a POMDP such as reward map, belief and value function to get an intuition on
+          how the algorithm works.</p>
+      </td>
       </tr>
-	      <tr>
+      <tr>
         <td width="25%"><img src="website_files/gffrwn_160.png" alt="prl" width="160" height="160"></td>
         <td width="75%" valign="top">
-        <p>
-          <a href="http://robotics.iiit.ac.in/uploads/Main/Publications/Siva_etal_ICVGIP_14.pdf">
-          <papertitle>Guess from Far, Recognize when Near: Searching the
-Floor for Small Objects</papertitle>
-          </a>
-          <br>
-          <strong>M Siva Karthik</strong>, Sudhanshu Mittal, K. Madhava Krishna, ICVGIP 2014
-        <br>
-<a href="https://www.youtube.com/watch?v=CbrLFqt_a9I">video</a>
-                
-                
-              </p><p></p>
+          <p>
+            <a href="http://robotics.iiit.ac.in/uploads/Main/Publications/Siva_etal_ICVGIP_14.pdf">
+              <papertitle>Guess from Far, Recognize when Near: Searching the
+                Floor for Small Objects</papertitle>
+            </a>
+            <br>
+            <strong>M Siva Karthik</strong>, Sudhanshu Mittal, K. Madhava Krishna, ICVGIP 2014
+            <br>
+            <a href="https://www.youtube.com/watch?v=CbrLFqt_a9I">video</a>
 
-<p>          Object recognition is achieved using 3-D Point Cloud data from Kinect sensors and constructing a Bag of Words Model on it. It is trained using a Support Vector Machine Classifier. Object Detection is achieved using segmentation of 2-D images by Markov Random Fields. The implementation is done on a Turtlebot with a Kinect Sensor mounted on top of it.
-        </p>
-        <p></p>
+
+          </p>
+          <p></p>
+
+          <p> Object recognition is achieved using 3-D Point Cloud data from Kinect sensors and constructing a Bag of
+            Words Model on it. It is trained using a Support Vector Machine Classifier. Object Detection is achieved
+            using segmentation of 2-D images by Markov Random Fields. The implementation is done on a Turtlebot with a
+            Kinect Sensor mounted on top of it.
+          </p>
+          <p></p>
         </td>
       </tr>
       <tr onmouseout="cvpr2012_stop()" onmouseover="cvpr2012_start()">
         <td width="25%">
-            <div class="one">
-                <div class="two" id="cvpr2012_image" style="opacity: 0;">
-                  <img src="website_files/table_out160.png" style="border-style: none"></div>
-                <img src="website_files/table_in160.png" style="border-style: none">
-            </div>                
-            <script type="text/javascript">
+          <div class="one">
+            <div class="two" id="cvpr2012_image" style="opacity: 0;">
+              <img src="website_files/table_out160.png" style="border-style: none">
+            </div>
+            <img src="website_files/table_in160.png" style="border-style: none">
+          </div>
+          <script type="text/javascript">
             function cvpr2012_start() {
               document.getElementById('cvpr2012_image').style.opacity = "1";
             }
@@ -332,29 +462,30 @@ Floor for Small Objects</papertitle>
               document.getElementById('cvpr2012_image').style.opacity = "0";
             }
             cvpr2012_stop()
-            </script>
+          </script>
         </td>
         <td width="75%" valign="top">
-        <p>
-          <a href="website_files/tabledeepreport.pdf">
-          <papertitle>Deep Learning for Table Interest Point Detection</papertitle>
-          </a>
-          <br>
-          <strong>Aseem Saxena</strong>
-        </p>
-		<p>I attempt to find interest points or corner points of tables in a scene using cues from
-semantic segmentation and vanishing lines. Availabilty of semantic information such as
-interest points can help mobile robots navigate in a better way.</p>
+          <p>
+            <a href="website_files/tabledeepreport.pdf">
+              <papertitle>Deep Learning for Table Interest Point Detection</papertitle>
+            </a>
+            <br>
+            <strong>Aseem Saxena</strong>
+          </p>
+          <p>I attempt to find interest points or corner points of tables in a scene using cues from
+            semantic segmentation and vanishing lines. Availabilty of semantic information such as
+            interest points can help mobile robots navigate in a better way.</p>
         </td>
       </tr>
-<tr onmouseout="cvpr12012_stop()" onmouseover="cvpr12012_start()">
+      <tr onmouseout="cvpr12012_stop()" onmouseover="cvpr12012_start()">
         <td width="25%">
-            <div class="one">
-                <div class="two" id="cvpr12012_image" style="opacity: 0;">
-                  <img src="website_files/2_out_160.png" style="border-style: none"></div>
-                <img src="website_files/2_in_160.png" style="border-style: none">
-            </div>                
-            <script type="text/javascript">
+          <div class="one">
+            <div class="two" id="cvpr12012_image" style="opacity: 0;">
+              <img src="website_files/2_out_160.png" style="border-style: none">
+            </div>
+            <img src="website_files/2_in_160.png" style="border-style: none">
+          </div>
+          <script type="text/javascript">
             function cvpr12012_start() {
               document.getElementById('cvpr12012_image').style.opacity = "1";
             }
@@ -362,39 +493,44 @@ interest points can help mobile robots navigate in a better way.</p>
               document.getElementById('cvpr12012_image').style.opacity = "0";
             }
             cvpr12012_stop()
-            </script>
+          </script>
         </td>
         <td width="75%" valign="top">
-        <p>
-          <a href="website_files/grabcutreport.pdf">
-          <papertitle>Automating GrabCut for Multilabel Image Segmentation</papertitle>
-          </a>
-          <br>
-          <strong>Aseem Saxena</strong>
-        </p>
-		<p>Performing Image Segmentation for 3 labels without user guidance by learning a GMM
-for each label and performing alpha expansion algorithm using MRF2.2 Library.</p>
+          <p>
+            <a href="website_files/grabcutreport.pdf">
+              <papertitle>Automating GrabCut for Multilabel Image Segmentation</papertitle>
+            </a>
+            <br>
+            <strong>Aseem Saxena</strong>
+          </p>
+          <p>Performing Image Segmentation for 3 labels without user guidance by learning a GMM
+            for each label and performing alpha expansion algorithm using MRF2.2 Library.</p>
         </td>
       </tr>
 
-<tr >
-        
-        
-        
-      </tbody></table>
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tbody><tr>
+      <tr>
+
+
+
+    </tbody>
+  </table>
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tbody>
+      <tr>
         <td>
-        <br>
-        <p align="right">
-          Inspired by 
-          <a href="https://people.eecs.berkeley.edu/~barron/">this</a>
-          
-        </p>
+          <br>
+          <p align="right">
+            Inspired by
+            <a href="https://people.eecs.berkeley.edu/~barron/">this</a>
+
+          </p>
         </td>
       </tr>
-      </tbody></table>
-      
-  
+    </tbody>
+  </table>
 
-</body></html>
+
+
+</body>
+
+</html>
